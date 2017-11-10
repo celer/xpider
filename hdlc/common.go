@@ -1,0 +1,6 @@
+package hdlc
+
+const FRAME_BOUNDARY_OCTET = 0x7E
+const CONTROL_ESCAPE_OCTET = 0x7D
+const INVERT_OCTET = 0x20
+const CRC16_CCITT_INIT_VAL = 0xFFF
