@@ -1,7 +1,7 @@
 package main
 
 import (
-	"../robot"
+	"github.com/celer/xpider"
 	"fmt"
 	"math/rand"
 	"time"
@@ -10,7 +10,7 @@ import (
 func main() {
 
 	// Connect to the xpider
-	x := &robot.Controller{}
+	x := &xpider.Controller{}
 	err := x.Connect("192.168.100.1:80")
 	if err != nil {
 		panic(err)

@@ -1,7 +1,7 @@
-package robot
+package xpider
 
 import (
-	"../hdlc"
+	"github.com/celer/xpider/hdlc"
 	"bytes"
 	"encoding/binary"
 	"fmt"
