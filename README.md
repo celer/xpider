@@ -44,6 +44,10 @@ it's setup.
 
 	// Set our front LEDs to be green and red
 	x.FrontLED(0, 0xFF, 0, 0xFF, 0, 0)
+
+	// Move to some location
+	x.AutoMove(100, r, 100, 10)
+
 ```
 
 ## Get the state of the robot
@@ -53,6 +57,6 @@ it's setup.
 	fmt.Printf("Observed Distance %d\n", state.ObsticalDistance)
 
 ```
-# See examples/ for examples
+## See examples/ for examples
 
 
